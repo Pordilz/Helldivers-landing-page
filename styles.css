@@ -1,0 +1,186 @@
+@font-face {
+    font-family: Insignia;
+    src: url('Insignia Regular/Insignia Regular.otf');
+}
+p,h1,h2,h3,h4{
+    font-family: Insignia, Arial, Helvetica, sans-serif;
+}
+
+.head-wrapper {
+    display: flex;
+}
+
+.Header{
+    background-color: rgb(210, 210, 17);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-bottom: -40px;
+
+    
+}
+.title{
+    color: #F9FAF8;
+    font-family: 'Insignia', arial;
+    font-size: 40px;
+
+}
+.nav{
+    justify-content: flex-end;
+    font-family: 'Insignia', arial;
+    justify-content: space-evenly;
+}
+.nav a {
+    color: teal;
+    text-decoration: none; /* Change the color of the navigation links to blue */
+    padding: 10px;
+}
+
+
+
+
+.Hero{
+    display: flex;
+    background-color: rgb(210, 210, 17);
+    margin-bottom: -45px;
+}
+h1{
+    font-size: 48px;
+}
+
+.intro-message{
+    font-size: 40px;
+}
+
+.hero-text{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: min-content; 
+}
+
+#hero-text{
+    text-align: center;
+}
+
+
+.img-logo{
+    scale: 0.8;
+    flex-flow: row;
+    max-width: fit-content;
+    height: fit-content;
+}
+
+
+.sign-up {
+    font-family: Insignia;
+    color: #F9FAF8;
+    background-color: teal;
+    scale: 1.5;
+    margin: 20px auto; /* Center the button horizontally and add margin space on top */
+    display: block;
+    margin-top: 20px;
+    border-radius: 20px; /* Add border radius to make the button more rounded */
+    padding: 10px 20px; /* Add padding for better appearance */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Ensure the button behaves as a block element */
+}
+
+
+
+.Info{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    font-size: 40px;
+}
+.Info-images {
+    display: flex;
+    flex-wrap: wrap; /* Allow images to wrap onto multiple lines */
+    align-items: baseline;
+    justify-content: space-evenly;
+    font-family: Insignia, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.img {
+    padding: 0 6px;
+    width: 200px;
+}
+
+.Quote{
+    background-color: #E5E7EB;
+    margin-top: -65px;
+    margin-bottom: 15px;
+    padding-bottom: 1px;
+}
+
+#Quote p{
+    font-size: 70px;
+    text-decoration: ;
+    color: #345179;
+}
+#Quote h4{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .text-box {
+    flex-grow: 1;
+    max-width: 70%;
+    
+  }
+  
+  /* Style the button */
+  #btn {
+    color: rgb(210, 210, 17);
+    background-color: #F9FAF8;
+  }
+  
+  
+
+
+@media only screen and (max-width: 700px) {
+    .Info-images {
+        flex-direction: column; /* Change flex-direction to column on smaller screens */
+    }
+
+    .img {
+        width: 100%; /* Set images to full width on smaller screens */
+        margin: 6px 0; /* Add margin for spacing */
+    }
+    .img-logo{
+        display: none;
+    
+    }
+    .footer{
+        width: 300px;
+    }
+    #btn{
+        scale: 1;
+    }
+    
+}
+
+
