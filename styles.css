@@ -44,7 +44,7 @@ p,h1,h2,h3,h4{
 .Hero{
     display: flex;
     background-color: rgb(210, 210, 17);
-    margin-bottom: -45px;
+    margin-bottom: -25px;
 }
 h1{
     font-size: 48px;
@@ -159,15 +159,6 @@ h1{
     
   }
   
-  /* Style the button */
-  #btn {
-    color: rgb(210, 210, 17);
-    background-color: #F9FAF8;
-  }
-  
-  
-
-
 @media only screen and (max-width: 800px) {
     .Info-images {
         flex-direction: column; /* Change flex-direction to column on smaller screens */
